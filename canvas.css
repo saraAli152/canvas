@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#btns {
+    position: fixed;
+    width: 100%;
+    background-color: #121212;
+    padding: 5px;
+}
+
+#btns>div {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+[type=button],
+[type=text],
+span {
+    font-size: 18px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    transition-duration: 0.25s;
+}
+
+[type=button]:active {
+    transform: scale(0.8);
+}
+
+span {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#controls * {
+    margin: 0 10px;
+}
+
+[type=color] {
+    border-radius: 0;
+    padding: 0;
+    background-color: grey;
+}
